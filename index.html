@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Elizabeth Pincheira</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<title></title>
+</head>
+<body>
+	<div class="container">
+		<div class="navbar">
+			<img src="images/logo.png" class="logo">
+			<nav>
+				<ul id="menulist">
+					<li><a href="">Home</a></li>
+					<!--<li><a href="">Portafolio</a></li>-->
+					<li><a href="">Sobre Mí</a></li>
+					<li><a href="">Contáctame</a></li>
+				</ul>
+			</nav>
+			<img src="images/menu.png" class="menu-icon" onclick="togglemenu()">
+		</div>
+		<div class="row">
+			<div class="col-1">
+				<h2>¡Hola!</h2><h3>Mi nombre es Elizabeth Pincheira</h3>
+				<p>Soy una diseñadora enfocada en la experiencia del usuario y como obtener un producto de alta calidad a través de la metodología ágil y el buen trabajo en equipo.
+					<br>
+					Me considero una diseñadora versátil y con gran capacidad de comunicación. Aun soy novata, pero busco el espacio para crecer y expresar mi pasión como profesional.
+					</p>
+
+					<a class="descarga"
+					href="Elizabeth-Pincheira.pdf" download="Elizabeth-Pincheira.pdf">Descargar curriculum</a>
+
+				
+			</div>
+			<div class="col-2">
+				<img src="images/eli2.png" class="eli">
+				<div class="color-box"></div>
+			</div>
+		</div>
+	</div>
+	<div class="social-links">
+		<img src="images/in.png">
+		<img src="images/fb.png">
+	</div>
+		<script>
+			var menulist = document.getElementById("menulist");
+			menulist.style.maxHeight = "0px";
+			function togglemenu(){
+				if(menulist.style.maxHeight == "0px")
+					{
+						menulist.style.maxHeight ="130px";
+					}
+				else
+					{
+						menulist.style.maxHeight ="0px";
+					}
+			}
+		</script>
+</body>
+</html>
