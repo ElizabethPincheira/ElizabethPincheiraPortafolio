@@ -59,7 +59,7 @@ nav ul li a:hover{
 }
 .col-1 h2{
 	font-size: 54px;
-	font-family: Abel;
+	font-family: sans-serif;
 	color: rgb(105, 103, 103);
 }
 .col-1 h3{
@@ -158,11 +158,29 @@ button:hover{
 .col-2 .eli{
 	width: 90%;
 }
+.col-3{
+	position: relative;
+	flex-basis: 60%;
+	display: flex;
+	align-items: center;
+}
+.col-3 .eli{
+	width: 220%;
+}
+.col-4{
+	position: relative;
+	flex-basis: 60%;
+	display: flex;
+	align-items: center;
+}
+.col-4 .eli{
+	width: 220%;
+}
 .color-box{
 	position: absolute;
 	right: 0;
 	top: 0;
-	background: linear-gradient(to top,#03989e, #51f4f7);
+	background: linear-gradient(to top,#0ae7ee, #fdfefe);
 	border-radius: 20px 0 0 20px;
 	height: 100%;
 	width: 80%;
